@@ -72,7 +72,15 @@ This folder contains the datasets for accident data in Amsterdam.
 ## /coordinates
 This folder contains the code for scraping a list of coordinates that match to every building within the limits of the model designated in the [GeoJSON file](/abstreet/geojson.json).
 ### scraping_addresses.ipynb
-To be detailed by Viggo.
+This Jupyter Notebook file contains the code used to obtain all relevant coordinates in the area highlighted by the geojson file and that will thereby be included in the Agent-Based Model. 
+In this Notebook, the following process has been followed:
+1. Getting the relevant boundary coordinates from the geojson file
+2. Manually converting these geojson coordinates into x- and y-values that can be used on the [Kadasterregister website](https://bagviewer.kadaster.nl/lvbag/bag-viewer/?zoomlevel=1)
+3. Manually selecting all relevant building block URLs inside the boundaries of our Agent-Based Model on the website of the Kadasterregister and putting them into a CSV-file
+4. Using these URLs to get all addresses in the relevant buidling blocks
+5. Obtain the coordinates, function and name of these addresses by using the geopy-library
+6. Save the values in a list and exporting this list to a CSV-file
+
 ## /rooster
 This directory contains scraped data, and data processing for [Rooster](rooster.uva.nl).
 ### scraper.ipynb
