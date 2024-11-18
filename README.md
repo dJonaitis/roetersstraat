@@ -60,9 +60,21 @@ In this scenario, named "minimal", there is one person, making two trips. The fi
 The scenario matches the nearest building, within 100 meters.
 
 Further documentation on the scenarios in A/BStreet can be found [here](https://a-b-street.github.io/docs/tech/dev/formats/scenarios.html).
+
+### /scenarios
+This directory contains all the scenario files, including test files in the JSON format denoted above.
+### scenario.py
+This file contains the functions to create a scenario given certain parameters.
+### geojson.json
+This is the GeoJSON file used for the model. In order to replicate the agent-based model, this is the file to import into A/BStreet to create the map of the Roetersstraat and its immediate surroundings.
 ## /accidents
+This folder contains the datasets for accident data in Amsterdam.
+## /coordinates
+This folder contains the code for scraping a list of coordinates that match to every building within the limits of the model designated in the [GeoJSON file](/abstreet/geojson.json).
+### scraping_addresses.ipynb
+To be detailed by Viggo.
 ## /rooster
-This directory contains scraped data, and data processing for [Rooster](rooster.uva.nl)
+This directory contains scraped data, and data processing for [Rooster](rooster.uva.nl).
 ### scraper.ipynb
 The basic procedure for the scraper is as follows:
 1. Open the schedule with Selenium.

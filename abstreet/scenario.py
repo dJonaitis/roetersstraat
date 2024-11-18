@@ -1,10 +1,12 @@
 import json
+
+
 def write_scenario(name, people):
     scenario = {
         'scenario_name': name,
         'people': people
     }
-    with open(name, "w") as f:
+    with open(f'{name}.json', "w") as f:
         f.write(json.dumps(scenario, indent=2))
     return "Scenario saved"
     
