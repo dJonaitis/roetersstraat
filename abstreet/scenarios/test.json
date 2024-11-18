@@ -1,0 +1,26 @@
+{
+  "scenario_name": "test",
+  "people": [
+    {
+      "trips": [
+        {
+          "departure": 10000,
+          "origin": {
+            "Position": {
+              "longitude": 4.911440253356261,
+              "latitude": 52.3629002425848
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 4.9081389973987655,
+              "latitude": 52.361556080685006
+            }
+          },
+          "mode": "Walk",
+          "purpose": "placeholder"
+        }
+      ]
+    }
+  ]
+}
