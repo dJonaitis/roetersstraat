@@ -61,10 +61,23 @@ The scenario matches the nearest building, within 100 meters.
 
 Further documentation on the scenarios in A/BStreet can be found [here](https://a-b-street.github.io/docs/tech/dev/formats/scenarios.html).
 
-### /scenarios
-This directory contains all the scenario files, including test files in the JSON format denoted above.
+### uva_scenario.py (v1.0)
+This contains the functions necessary to convert a distribution of students arrival times and rooster schedule data and combine that into a scenario ready to load into A/BStreet.
+
+**Room for improvement**:
+1. Discuss what the implications are of using a csv of 10 thousands samples of the distribution of arrival times.
+2. Normalise that distribution where class start time = 0, anyone arriving before has a negative number and anyone after a positive number (in seconds). Then, given any time, you could conver it to seconds after midnight and add the value sampled from the distribution. E.g. ``arrivalTime = convert_time(classStart) + sampledTime`` or ``arrivalTime = convert_time('11:00') + -180`` meaning that the student arrived 180 seconds (3 minutes) before 11:00, or at 10:57.
+3. Implementing a different mechanism for departure time. Right now the arrivalTime is calculated and 5-15 minutes is subtracted. Perhaps it makes more sense to subtract a set time so as to retain information in regards to the arrivalTime. Maybe this could be calculated as a function of the distance between the ``origin`` and ``destination``. E.g. the distance is 2km, hence subtract ``15 * 2`` minutes for people who walk, ``7 * 2`` for those who bike and so on.
+4. Implementing a different mechanism for departure location. Right now, all those who arrive with a metro get out at the metro station near Valckenierstraat and everyone else gets a randomly assigned coordinate from the entire coordinate list. We need to implement a system where that is done more realistically and off-map locations are considered.
+
 ### scenario.py
-This file contains the functions to create a scenario given certain parameters.
+This file contains the functions to create a scenario given certain parameters. There are a number of functions that can be imported into a working file to make creating scenarios easier. 
+
+**Modules**:
+1. ``write_scenario(name, people)`` - takes a string for ``name`` and array of ``people``, saves JSON file and returns message.
+2. ``convert_time(inStr)`` - takes a string for ``inStr`` in the format of '00:20' or '19:35' and returns it as an integer in terms of seconds after midnight. DO NOT FORGET TO ADD FOUR ZEROES AT THE END OF THE OUTPUT. This is not done in the function so that operations can still be done on the time afterwards. Example usage: ``departureTime = int(str(convert_time(inStr)) + '0000')``.
+3. ``generate_person(timeDeparture, origin, destination, mode)`` - takes ``timeDeparture`` as integer of seconds after midnight (with trailing zeroes), ``origin`` and ``destination`` as array of coordinates of length 2 (e.g. ``[52.356346, 67.75475]``) and ``mode`` as string of values ``Walk``, ``Bike``, ``Drive`` or ``Transit``. ``Transit`` is unused for this application and ``Walk`` should be used from metro station.
+
 ### geojson.json
 This is the GeoJSON file used for the model. In order to replicate the agent-based model, this is the file to import into A/BStreet to create the map of the Roetersstraat and its immediate surroundings.
 ## /accidents

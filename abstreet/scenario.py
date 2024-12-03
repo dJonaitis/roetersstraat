@@ -13,7 +13,7 @@ def convert_time(inStr):
     # count the number of seconds after midnight
     else:
         outStr = str(int(hours) * 3600 + int(minutes) * 60)
-    return int(outStr + '0000')
+    return int(outStr)
 
 print(convert_time('00:20'))
     

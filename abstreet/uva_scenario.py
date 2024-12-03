@@ -17,8 +17,8 @@ fractionSimulation = 0.1 # how much of the real data to simulate 0-1
 
 fractionMetro = 0.3 # fraction of people using metro 0-1
 fractionBike = 0.3 # fraction of people using bike 0-1
-fractionCar = 0.01 # fraction of people using car 0-1
-fractionWalk = 0.39 # fraction of people walking 0-1
+fractionCar = 0.1 # fraction of people using car 0-1
+fractionWalk = 0.3 # fraction of people walking 0-1
 
 # import and clean schedule
 schedule = pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv')
@@ -61,7 +61,7 @@ def generate9AMArrival(schedule, weekday, schedule_grouped, name):
         sizes = {
             'Metro': int(size * fractionMetro),
             'Bike': int(size * fractionBike),
-            'Car': int(size * fractionCar),
+            'Drive': int(size * fractionCar),
             'Walk': int(size * fractionWalk)
         }
 
@@ -70,6 +70,7 @@ def generate9AMArrival(schedule, weekday, schedule_grouped, name):
                 arrivalTime = random.choice(samples_9am) # choose randomly from sample of 9am arrivals (format: 9.50)
                 arrivalTime = str(int(arrivalTime)) + ':' + str(int((arrivalTime % 1) * 60))
                 departureTime = convert_time(arrivalTime) - random.randint(5, 15) * 60 # 5-15 minutes before arrival
+                departureTime = int(str(departureTime) + '0000')
                 if mode == 'Metro':
                     origin = weesperMetro
                     destination = coordinates
@@ -85,7 +86,7 @@ def generate9AMArrival(schedule, weekday, schedule_grouped, name):
     print(f'STATISTICS FOR THIS SCENARIO: {name}')
     print(f'Number of people: {len(people)}')
     print(f'Number of people using Bike: {len([p for p in people if p["trips"][0]["mode"] == "Bike"])}')
-    print(f'Number of people using Car: {len([p for p in people if p["trips"][0]["mode"] == "Car"])}')
+    print(f'Number of people using Drive: {len([p for p in people if p["trips"][0]["mode"] == "Drive"])}')
     print(f'Number of people using Walk: {len([p for p in people if p["trips"][0]["mode"] == "Walk"])}')
 
     people = random.sample(people, int(len(people) * fractionSimulation))
