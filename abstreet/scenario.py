@@ -52,4 +52,4 @@ people = [
     }
 ]
 
-write_scenario('test', people)
+# write_scenario('test', people)
