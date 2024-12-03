@@ -1,0 +1,6242 @@
+{
+  "scenario_name": "9am_first_test",
+  "people": [
+    {
+      "trips": [
+        {
+          "departure": 321599520,
+          "origin": {
+            "Position": {
+              "longitude": 52.361815,
+              "latitude": 4.90236
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3611236,
+              "latitude": 4.9069333
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3605023,
+              "latitude": 4.9155865
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3694244,
+              "latitude": 4.9149046
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3693376,
+              "latitude": 4.9134225
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641955,
+              "latitude": 4.9177345
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332399520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691715,
+              "latitude": 4.9085198
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3618484,
+              "latitude": 4.9103754
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645495,
+              "latitude": 4.9140021
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3661537,
+              "latitude": 4.9219281
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 329399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3681802,
+              "latitude": 4.905825
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3633186,
+              "latitude": 4.9104137
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3622633,
+              "latitude": 4.9021191
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645154,
+              "latitude": 4.9055605
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 347399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3689133,
+              "latitude": 4.9023941
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 334799280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3671925,
+              "latitude": 4.9030352
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 347999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3624466,
+              "latitude": 4.9051572
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3608566,
+              "latitude": 4.9075821
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3636931,
+              "latitude": 4.9160206
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3642132,
+              "latitude": 4.917646
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691685,
+              "latitude": 4.9085553
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 330599400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3640898,
+              "latitude": 4.9047723
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 331799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3619124,
+              "latitude": 4.9146523
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.9124119
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 345599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645523,
+              "latitude": 4.9215192
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3618916,
+              "latitude": 4.9041698
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637036,
+              "latitude": 4.9160224
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3692644,
+              "latitude": 4.9153468
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 341999460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3657053,
+              "latitude": 4.9108476
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3627652,
+              "latitude": 4.9149113
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3629735,
+              "latitude": 4.9087484
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3617956,
+              "latitude": 4.9041954
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320999460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3619434,
+              "latitude": 4.9146821
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 312599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639132,
+              "latitude": 4.910045
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3690849,
+              "latitude": 4.9064653
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3647659,
+              "latitude": 4.9137679
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686175,
+              "latitude": 4.9109342
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3617812,
+              "latitude": 4.9117415
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3664305,
+              "latitude": 4.9034253
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310199340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3677669,
+              "latitude": 4.9184322
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3664021,
+              "latitude": 4.9112827
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686422,
+              "latitude": 4.917086
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 312599280,
+          "origin": {
+            "Position": {
+              "longitude": 52.359958,
+              "latitude": 4.9143154
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3682429,
+              "latitude": 4.9161211
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645551,
+              "latitude": 4.9222385
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3693603,
+              "latitude": 4.9146265
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3614817,
+              "latitude": 4.9043458
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.360169,
+              "latitude": 4.9153112
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3652158,
+              "latitude": 4.9143968
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3620004,
+              "latitude": 4.9081572
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3584923,
+              "latitude": 4.9074317
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3618304,
+              "latitude": 4.9082621
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637758,
+              "latitude": 4.9093417
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 347399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3679918,
+              "latitude": 4.9186506
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 334199700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3682095,
+              "latitude": 4.907811
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623522,
+              "latitude": 4.9129245
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3621651,
+              "latitude": 4.9044554
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3676445,
+              "latitude": 4.9218833
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3616165,
+              "latitude": 4.9110239
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3680029,
+              "latitude": 4.9167991
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3681629,
+              "latitude": 4.9163422
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3600589,
+              "latitude": 4.9146814
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3620004,
+              "latitude": 4.9081578
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3612321,
+              "latitude": 4.90266
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 335399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.361515,
+              "latitude": 4.9125662
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 338999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686865,
+              "latitude": 4.9146775
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 312599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3660737,
+              "latitude": 4.9221345
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.362602,
+              "latitude": 4.9057868
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3657314,
+              "latitude": 4.9242523
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3675467,
+              "latitude": 4.9221902
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3615825,
+              "latitude": 4.9091595
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.367136,
+              "latitude": 4.9060121
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 311399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3606312,
+              "latitude": 4.9118565
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 338399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.363673,
+              "latitude": 4.9104288
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3636468,
+              "latitude": 4.9086386
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3619461,
+              "latitude": 4.9059553
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 311399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3609195,
+              "latitude": 4.9096366
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3598659,
+              "latitude": 4.9026603
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3682925,
+              "latitude": 4.9105558
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 338399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639776,
+              "latitude": 4.9059187
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 345599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3665502,
+              "latitude": 4.9020585
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688475,
+              "latitude": 4.9055577
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 341399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3619564,
+              "latitude": 4.9128843
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 343799700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3583569,
+              "latitude": 4.9079536
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3630212,
+              "latitude": 4.9092471
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3687724,
+              "latitude": 4.9026068
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3616233,
+              "latitude": 4.9059882
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310799340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3684377,
+              "latitude": 4.9176461
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3597562,
+              "latitude": 4.9132458
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 311399400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3606584,
+              "latitude": 4.9119003
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Car",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3681125,
+              "latitude": 4.9127454
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3683762,
+              "latitude": 4.9157527
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3654653,
+              "latitude": 4.9113796
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688242,
+              "latitude": 4.9064535
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641372,
+              "latitude": 4.9164873
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.361691,
+              "latitude": 4.9050039
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 327599280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3678375,
+              "latitude": 4.9113829
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639068,
+              "latitude": 4.9106174
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3677364,
+              "latitude": 4.9175801
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3684023,
+              "latitude": 4.9155174
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.36361,
+              "latitude": 4.9084334
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3638888,
+              "latitude": 4.9213502
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 331199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3607439,
+              "latitude": 4.9124817
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3657636,
+              "latitude": 4.9232977
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3670681,
+              "latitude": 4.9033891
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 324599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3612914,
+              "latitude": 4.9151233
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3659545,
+              "latitude": 4.9125043
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3676935,
+              "latitude": 4.9183726
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 335399580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3674999,
+              "latitude": 4.9123703
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3642936,
+              "latitude": 4.9151941
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199400,
+          "origin": {
+            "Position": {
+              "longitude": 52.368586,
+              "latitude": 4.9233112
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3585148,
+              "latitude": 4.9084354
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 307799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3660417,
+              "latitude": 4.9073937
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691008,
+              "latitude": 4.9081833
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3614881,
+              "latitude": 4.9171469
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688755,
+              "latitude": 4.9169954
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3640136,
+              "latitude": 4.9059183
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623706,
+              "latitude": 4.9020599
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3687636,
+              "latitude": 4.9026218
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3604418,
+              "latitude": 4.9116824
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308399520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3601607,
+              "latitude": 4.9066207
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3650963,
+              "latitude": 4.9094408
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.361779,
+              "latitude": 4.9141746
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3618293,
+              "latitude": 4.9102875
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3666615,
+              "latitude": 4.9117479
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3680135,
+              "latitude": 4.9058358
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3648192,
+              "latitude": 4.91382
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3668133,
+              "latitude": 4.9026725
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Car",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3585282,
+              "latitude": 4.9074311
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688877,
+              "latitude": 4.9088314
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3663199,
+              "latitude": 4.9027952
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3671576,
+              "latitude": 4.9121973
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3609151,
+              "latitude": 4.9131601
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3628826,
+              "latitude": 4.9084996
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3605076,
+              "latitude": 4.9057361
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3617489,
+              "latitude": 4.9177163
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3676491,
+              "latitude": 4.9183298
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3606774,
+              "latitude": 4.9121346
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3615104,
+              "latitude": 4.9105424
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688355,
+              "latitude": 4.915968
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 343799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3650769,
+              "latitude": 4.9140054
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3635723,
+              "latitude": 4.9057029
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3633608,
+              "latitude": 4.9045307
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 342599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3628169,
+              "latitude": 4.9079845
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691777,
+              "latitude": 4.908538
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 348599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3651816,
+              "latitude": 4.9144252
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3662098,
+              "latitude": 4.9022533
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3634566,
+              "latitude": 4.910476
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3682798,
+              "latitude": 4.9186023
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 346799700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3622074,
+              "latitude": 4.9140004
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639217,
+              "latitude": 4.9075489
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 307199160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3652727,
+              "latitude": 4.9241248
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3607761,
+              "latitude": 4.9076564
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3630318,
+              "latitude": 4.9054004
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3659722,
+              "latitude": 4.9124307
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 311399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3671563,
+              "latitude": 4.9029918
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3614278,
+              "latitude": 4.9043466
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3681008,
+              "latitude": 4.9165485
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3653597,
+              "latitude": 4.9090946
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 312599280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3690291,
+              "latitude": 4.921634
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3685713,
+              "latitude": 4.9083648
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 337799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3650214,
+              "latitude": 4.9219547
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3609974,
+              "latitude": 4.9045859
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 329399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.361909,
+              "latitude": 4.9134091
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 340799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3694565,
+              "latitude": 4.9072395
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 341999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3661093,
+              "latitude": 4.9220461
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3609011,
+              "latitude": 4.9074642
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 350399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3648663,
+              "latitude": 4.9153159
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 327599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3602395,
+              "latitude": 4.9061061
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 324599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3685859,
+              "latitude": 4.9233114
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3624064,
+              "latitude": 4.9107658
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3693562,
+              "latitude": 4.909222
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 329399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3606575,
+              "latitude": 4.9063281
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 335399280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3647031,
+              "latitude": 4.9136954
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 324599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3662697,
+              "latitude": 4.9101873
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313799220,
+          "origin": {
+            "Position": {
+              "longitude": 52.364717,
+              "latitude": 4.9044134
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3587333,
+              "latitude": 4.9078622
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 310199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639558,
+              "latitude": 4.9049936
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3672284,
+              "latitude": 4.903035
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 344999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645551,
+              "latitude": 4.9222385
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3653068,
+              "latitude": 4.9091233
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3692359,
+              "latitude": 4.9085217
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320999460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3600127,
+              "latitude": 4.9145203
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623751,
+              "latitude": 4.9058489
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623971,
+              "latitude": 4.9129089
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3615602,
+              "latitude": 4.9089354
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3618765,
+              "latitude": 4.9085698
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3661804,
+              "latitude": 4.9218544
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3598939,
+              "latitude": 4.9029095
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 343799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3654523,
+              "latitude": 4.9082959
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691205,
+              "latitude": 4.9221083
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3661892,
+              "latitude": 4.9218103
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3688475,
+              "latitude": 4.9055577
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 327599400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3630777,
+              "latitude": 4.9056646
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686695,
+              "latitude": 4.9149126
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3584854,
+              "latitude": 4.908418
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 340199160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3694079,
+              "latitude": 4.9132173
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3675937,
+              "latitude": 4.9178606
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3646995,
+              "latitude": 4.9044869
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 331199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3681451,
+              "latitude": 4.9164014
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399220,
+          "origin": {
+            "Position": {
+              "longitude": 52.365749,
+              "latitude": 4.9105684
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 327599100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639331,
+              "latitude": 4.9059481
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.368565,
+              "latitude": 4.9068233
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399280,
+          "origin": {
+            "Position": {
+              "longitude": 52.367718,
+              "latitude": 4.9107381
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3621381,
+              "latitude": 4.9021799
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3685562,
+              "latitude": 4.9024038
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308999340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3692192,
+              "latitude": 4.9084782
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3636287,
+              "latitude": 4.9085799
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623971,
+              "latitude": 4.9129089
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 307799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639421,
+              "latitude": 4.9218189
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 338999520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3644888,
+              "latitude": 4.9055753
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 341399400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637828,
+              "latitude": 4.911074
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3684483,
+              "latitude": 4.9024344
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3609248,
+              "latitude": 4.9133508
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 311999520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3584898,
+              "latitude": 4.9083143
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3693542,
+              "latitude": 4.909219
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799220,
+          "origin": {
+            "Position": {
+              "longitude": 52.36148039,
+              "latitude": 4.909486823
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3625649,
+              "latitude": 4.9056109
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3617164,
+              "latitude": 4.913639
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 337199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3646165,
+              "latitude": 4.9039004
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3643944,
+              "latitude": 4.9147011
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3678376,
+              "latitude": 4.9185046
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3657719,
+              "latitude": 4.9072794
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.369019,
+              "latitude": 4.9079785
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3593937,
+              "latitude": 4.91042
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 324599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637771,
+              "latitude": 4.9208671
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3648984,
+              "latitude": 4.9090651
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3621886,
+              "latitude": 4.9100778
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 329999340,
+          "origin": {
+            "Position": {
+              "longitude": 52.359878,
+              "latitude": 4.9122903
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 312599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623975,
+              "latitude": 4.9107953
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3617908,
+              "latitude": 4.9141904
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.363933,
+              "latitude": 4.9059482
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3682162,
+              "latitude": 4.9161948
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3638707,
+              "latitude": 4.9061693
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686267,
+              "latitude": 4.9177175
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 305999520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3607746,
+              "latitude": 4.9028846
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3636978,
+              "latitude": 4.9034112
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3668233,
+              "latitude": 4.9028632
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3636233,
+              "latitude": 4.9084754
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3598107,
+              "latitude": 4.911307
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3584713,
+              "latitude": 4.9083132
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3643498,
+              "latitude": 4.9140878
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3647745,
+              "latitude": 4.9231612
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323399460,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637979,
+              "latitude": 4.9216443
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645603,
+              "latitude": 4.9055453
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3648981,
+              "latitude": 4.9090653
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3691606,
+              "latitude": 4.9231303
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3678265,
+              "latitude": 4.9199439
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 335399400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3677529,
+              "latitude": 4.9104735
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3661005,
+              "latitude": 4.9220607
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3686544,
+              "latitude": 4.9111978
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322199460,
+          "origin": {
+            "Position": {
+              "longitude": 52.367923,
+              "latitude": 4.9170496
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3689346,
+              "latitude": 4.9160404
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 323999700,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641746,
+              "latitude": 4.9151396
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319199700,
+          "origin": {
+            "Position": {
+              "longitude": 52.363158,
+              "latitude": 4.9099356
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3692636,
+              "latitude": 4.9174024
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3675782,
+              "latitude": 4.9207679
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 306599460,
+          "origin": {
+            "Position": {
+              "longitude": 52.362498,
+              "latitude": 4.9065803
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 320999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3662647,
+              "latitude": 4.9025022
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3653239,
+              "latitude": 4.9076806
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 337199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3660335,
+              "latitude": 4.9097433
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328199100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3635266,
+              "latitude": 4.909961
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328199400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3687162,
+              "latitude": 4.9064253
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 347399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3690431,
+              "latitude": 4.915193
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.367869,
+              "latitude": 4.9170208
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308399340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3631678,
+              "latitude": 4.9101263
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 351599520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3647166,
+              "latitude": 4.9044135
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3656933,
+              "latitude": 4.9101285
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316799160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3690516,
+              "latitude": 4.9229109
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3615888,
+              "latitude": 4.9130503
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 324599280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3694088,
+              "latitude": 4.9132455
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3638465,
+              "latitude": 4.9112789
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 318599700,
+          "origin": {
+            "Position": {
+              "longitude": 52.367694,
+              "latitude": 4.9070088
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317999580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3677711,
+              "latitude": 4.9105173
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325199220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641599,
+              "latitude": 4.917794
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 316199280,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641014,
+              "latitude": 4.9076351
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 325799340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3669208,
+              "latitude": 4.9204223
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328799220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3628621,
+              "latitude": 4.9043891
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3630387,
+              "latitude": 4.914365
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3675299,
+              "latitude": 4.9222074
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 319799400,
+          "origin": {
+            "Position": {
+              "longitude": 52.3638818,
+              "latitude": 4.9201461
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599100,
+          "origin": {
+            "Position": {
+              "longitude": 52.366577,
+              "latitude": 4.9108385
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 329999100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3684384,
+              "latitude": 4.9155611
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313199520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3647701,
+              "latitude": 4.9151871
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 332399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3645094,
+              "latitude": 4.9040777
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326999160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3623703,
+              "latitude": 4.9129535
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3603528,
+              "latitude": 4.9141497
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 333599520,
+          "origin": {
+            "Position": {
+              "longitude": 52.3641601,
+              "latitude": 4.9177941
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3636084,
+              "latitude": 4.912418
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 315599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3637794,
+              "latitude": 4.9214685
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 305999640,
+          "origin": {
+            "Position": {
+              "longitude": 52.3666414,
+              "latitude": 4.9090029
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 321599220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3669242,
+              "latitude": 4.9033614
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 308999340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3655356,
+              "latitude": 4.9088116
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 328199580,
+          "origin": {
+            "Position": {
+              "longitude": 52.3658966,
+              "latitude": 4.9115096
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 345599100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3683491,
+              "latitude": 4.9156649
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 326399700,
+          "origin": {
+            "Position": {
+              "longitude": 52.36695,
+              "latitude": 4.9030968
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3651602,
+              "latitude": 4.9116465
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 317399160,
+          "origin": {
+            "Position": {
+              "longitude": 52.3627269,
+              "latitude": 4.9054185
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 322799220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3635803,
+              "latitude": 4.903251
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 313799340,
+          "origin": {
+            "Position": {
+              "longitude": 52.3644981,
+              "latitude": 4.9055749
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 338399220,
+          "origin": {
+            "Position": {
+              "longitude": 52.3639852,
+              "latitude": 4.9167832
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3626311,
+              "latitude": 4.9130096
+            }
+          },
+          "mode": "Bike",
+          "purpose": "Work"
+        }
+      ]
+    },
+    {
+      "trips": [
+        {
+          "departure": 314399100,
+          "origin": {
+            "Position": {
+              "longitude": 52.3683462,
+              "latitude": 4.9127283
+            }
+          },
+          "destination": {
+            "Position": {
+              "longitude": 52.3629328,
+              "latitude": 4.9119699
+            }
+          },
+          "mode": "Walk",
+          "purpose": "Work"
+        }
+      ]
+    }
+  ]
+}

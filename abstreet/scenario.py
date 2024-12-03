@@ -26,7 +26,68 @@ def write_scenario(name, people):
     with open(f'{name}.json', "w") as f:
         f.write(json.dumps(scenario, indent=2))
     return "Scenario saved"
-    
+
+# def generate_person(timeDeparture1, origin1, destination1, mode1, timeDeparture2, origin2, destination2, mode2):
+#     return {
+#         'trips': [
+#             {
+#                 'departure': timeDeparture1,
+#                 'origin': {
+#                     'Position': {
+#                         'longitude': origin1[0],
+#                         'latitude': origin1[1]
+#                     }
+#                 },
+#                 'destination': {
+#                     'Position': {
+#                         'longitude': destination1[0],
+#                         'latitude': destination1[1]
+#                     }
+#                 },
+#                 'mode': mode1,
+#                 'purpose': 'Work'
+#             },
+#             {
+#                 'departure': timeDeparture2,
+#                 'origin': {
+#                     'Position': {
+#                         'longitude': origin2[0],
+#                         'latitude': origin2[1]
+#                     }
+#                 },
+#                 'destination': {
+#                     'Position': {
+#                         'longitude': destination2[0],
+#                         'latitude': destination2[1]
+#                     }
+#                 },
+#                 'mode': mode2,
+#                 'purpose': 'Work'
+#             }
+#         ]
+#     }
+
+# 1 trip version
+def generate_person(timeDeparture, origin, destination, mode):
+    return {'trips': [
+            {
+                'departure': timeDeparture,
+                'origin': {
+                    'Position': {
+                        'longitude': origin[0],
+                        'latitude': origin[1]
+                    }
+                },
+                'destination': {
+                    'Position': {
+                        'longitude': destination[0],
+                        'latitude': destination[1]
+                    }
+                },
+                'mode': mode,
+                'purpose': 'Work'
+            },
+    ]}
 # example run
 people = [
     {
