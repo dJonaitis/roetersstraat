@@ -1,5 +1,5 @@
 import pandas as pd
-from scenario_tools import generate_person_2trip, convert_time, generate_departure_time
+from scenario_tools import generate_person_2trip, generate_departure_time
 import random
 
 random.seed(42)

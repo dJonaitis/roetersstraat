@@ -1,6 +1,6 @@
 import pandas as pd
 from cleaner import cleanRooster
-from scenario_tools import write_scenario, generate_person, convert_time
+from scenario_tools import write_scenario, generate_person, convert_time, convert_time_frac_string
 import random
 import json
 
@@ -69,7 +69,7 @@ def generate9AMArrival(weekday):
         for mode, count in sizes.items():
             for _ in range(count):
                 arrivalTime = random.choice(samples_9am) # choose randomly from sample of 9am arrivals (format: 9.50)
-                arrivalTime = str(int(arrivalTime)) + ':' + str(int((arrivalTime % 1) * 60))
+                arrivalTime = convert_time_frac_string(arrivalTime)
                 departureTime = convert_time(arrivalTime) - random.randint(5, 15) * 60 # 5-15 minutes before arrival
                 departureTime = int(str(departureTime) + '0000')
                 if mode == 'Metro':
@@ -83,14 +83,14 @@ def generate9AMArrival(weekday):
 
                 people.append(generate_person(departureTime, origin, destination, mode))
 
-
+    people = random.sample(people, int(len(people) * fractionSimulation))
     print(f'STATISTICS FOR THIS UVA SCENARIO')
     print(f'Number of people: {len(people)}')
     print(f'Number of people using Bike: {len([p for p in people if p["trips"][0]["mode"] == "Bike"])}')
     print(f'Number of people using Drive: {len([p for p in people if p["trips"][0]["mode"] == "Drive"])}')
     print(f'Number of people using Walk: {len([p for p in people if p["trips"][0]["mode"] == "Walk"])}')
 
-    people = random.sample(people, int(len(people) * fractionSimulation))
+    
     return people
 
 

@@ -16,9 +16,21 @@ def convert_time(inStr):
         outStr = str(int(hours) * 3600 + int(minutes) * 60)
     return int(outStr)
 
+# Takes as input a float in the format HH.MM
+# Returns the time in string format HH:MM
+# Sample input: 17.3
+# Sample output: '17:18'
+def convert_time_frac_string(inFrac):
+    hours, minutes = str(inFrac).split('.')
+    mins = int((int(minutes) / 100) * 60)
+    return hours + ':' + ('0' if mins < 10 else '') + str(mins)
+
+print(convert_time('17:3'))
+
 def generate_departure_time(mean, std, n):
     sample = [random.gauss(mean, std) for _ in range(n)]
-    return [str(int(i)) + ':' + str(int((i % 1) * 60)) for i in sample]  
+    sample = [convert_time_frac_string(x) for x in sample]
+    return [convert_time(x) for x in sample]
 
 def write_scenario(name, people):
     scenario = {
