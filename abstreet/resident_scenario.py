@@ -14,7 +14,7 @@ fractionCar = 0.15 # fraction of people using car 0-1
 fractionWalk = 0.55 # fraction of people walking 0-1
 
 # DATASETS
-coordsDf = pd.read_csv('coordinates/scraped_addresses.csv')
+coordsDf = pd.read_csv('roetersstraat/coordinates/scraped_addresses.csv')
 # homes where category column is 'house', 'apartments'
 homes = coordsDf[coordsDf['Category'].isin(['house', 'apartments'])].copy()
 workplaces = coordsDf[~coordsDf['Category'].isin(['house', 'apartments'])].copy()
@@ -38,7 +38,7 @@ def generate9to5(residents):
         homes.drop(home_index, inplace=True)
         work = workplaces.sample()[['Latitude', 'Longitude']].values[0]
         # mode is randomly chosen through an uneven coin-toss with values noted above
-        mode = random.choices(['Bike', 'Car', 'Walk'], weights=[fractionBike, fractionCar, fractionWalk])[0]
+        mode = random.choices(['Bike', 'Drive', 'Walk'], weights=[fractionBike, fractionCar, fractionWalk])[0]
         # the line below should be changed to adjust how people leave for work and home, and with what deviation
         person = Person(home, work, mode, generate_departure_time(9, 0.25, 1)[0], generate_departure_time(17, 0.25, 1)[0])
         people.append(generate_person_2trip(person.departHome, person.home, person.work, person.mode, person.departWork, person.work, person.home, person.mode))

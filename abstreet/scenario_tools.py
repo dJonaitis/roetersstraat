@@ -21,9 +21,8 @@ def convert_time(inStr):
 # Sample input: 17.3
 # Sample output: '17:18'
 def convert_time_frac_string(inFrac):
-    hours, minutes = str(inFrac).split('.')
-    mins = int((int(minutes) / 100) * 60)
-    return hours + ':' + ('0' if mins < 10 else '') + str(mins)
+    hours, minutes = divmod(inFrac * 60, 60)
+    return '{0:02.0f}:{1:02.0f}'.format(hours, minutes)
 
 print(convert_time('17:3'))
 
