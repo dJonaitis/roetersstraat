@@ -70,8 +70,11 @@ This contains the functions necessary to convert a distribution of students arri
 3. Implementing a different mechanism for departure time. Right now the arrivalTime is calculated and 5-15 minutes is subtracted. Perhaps it makes more sense to subtract a set time so as to retain information in regards to the arrivalTime. Maybe this could be calculated as a function of the distance between the ``origin`` and ``destination``. E.g. the distance is 2km, hence subtract ``15 * 2`` minutes for people who walk, ``7 * 2`` for those who bike and so on.
 4. Implementing a different mechanism for departure location. Right now, all those who arrive with a metro get out at the metro station near Valckenierstraat and everyone else gets a randomly assigned coordinate from the entire coordinate list. We need to implement a system where that is done more realistically and off-map locations are considered.
 
-### scenario.py
+### scenario_tools.py
 This file contains the functions to create a scenario given certain parameters. There are a number of functions that can be imported into a working file to make creating scenarios easier. 
+
+### scenario.py
+This file combines all the functions that return separate arrays of people into one JSON file for the scenario. This is where the parameters for each individual scenario should be adjusted.
 
 **Modules**:
 1. ``write_scenario(name, people)`` - takes a string for ``name`` and array of ``people``, saves JSON file and returns message.

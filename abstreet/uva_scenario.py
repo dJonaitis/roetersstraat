@@ -71,7 +71,7 @@ def generate9AMArrival(weekday):
                 arrivalTime = random.choice(samples_9am) # choose randomly from sample of 9am arrivals (format: 9.50)
                 arrivalTime = convert_time_frac_string(arrivalTime)
                 departureTime = convert_time(arrivalTime) - random.randint(5, 15) * 60 # 5-15 minutes before arrival
-                departureTime = int(str(departureTime) + '0000')
+                departureTime = int(str(departureTime))
                 if mode == 'Metro':
                     origin = weesperMetro
                     destination = coordinates

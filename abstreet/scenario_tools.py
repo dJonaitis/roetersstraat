@@ -4,7 +4,7 @@ import random
 # Takes as input string in format HH:MM in 24 hour time
 # Returns time in seconds after midnight
 # Sample input: '00:20'
-# Sample output: 12000000 (i.e. 1200 seconds after midnight followed by four zeros)
+# Sample output: 1200 (i.e. 1200 seconds after midnight followed by four zeros)
 def convert_time(inStr):
     outStr = ''
     hours, minutes = inStr.split(':')
