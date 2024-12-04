@@ -14,7 +14,7 @@ def convert_time(inStr):
     # count the number of seconds after midnight
     else:
         outStr = str(int(hours) * 3600 + int(minutes) * 60)
-    return int(outStr)
+    return int(outStr + '0000')
 
 # Takes as input a float in the format HH.MM
 # Returns the time in string format HH:MM
@@ -24,12 +24,13 @@ def convert_time_frac_string(inFrac):
     hours, minutes = divmod(inFrac * 60, 60)
     return '{0:02.0f}:{1:02.0f}'.format(hours, minutes)
 
-print(convert_time('17:3'))
 
 def generate_departure_time(mean, std, n):
     sample = [random.gauss(mean, std) for _ in range(n)]
     sample = [convert_time_frac_string(x) for x in sample]
     return [convert_time(x) for x in sample]
+
+print(generate_departure_time(9, 0.25, 1))
 
 def write_scenario(name, people):
     scenario = {

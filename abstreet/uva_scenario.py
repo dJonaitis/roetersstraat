@@ -9,7 +9,7 @@ random.seed(42)
 # This file generates the people array for UvA students using Rooster data
 
 # read csv to an array
-samples_9am = pd.read_csv('roetersstraat/rooster/data/10k_samples_9am.csv').values
+samples_9am = pd.read_csv('rooster/data/10k_samples_9am.csv').values
 samples_9am = samples_9am.flatten().tolist()
 
 attendanceFactor = 1 # percentage of people attending classes 0-1
@@ -35,7 +35,7 @@ weesperMetro = [4.9081389973987655,52.361556080685006]
 
 
 # get random coordinates for each building
-allCoordinates = pd.read_csv('roetersstraat/coordinates/scraped_addresses.csv')
+allCoordinates = pd.read_csv('coordinates/scraped_addresses.csv')
 allCoordinates = allCoordinates[['Latitude', 'Longitude']]
 
 # FUNCTIONS
@@ -44,7 +44,7 @@ weekday = 'Monday' # day of the week for the scenario
 def generate9AMArrival(weekday):
     ## variables
     # import and clean schedule
-    schedule = pd.read_csv('roetersstraat/rooster/data/calendar_week_nov_4_8_2024.csv')
+    schedule = pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv')
     schedule = cleanRooster(schedule)
     schedule_grouped = schedule.groupby(['day', 'start_time', 'location'])['size'].sum().reset_index(name='total_size')
 
@@ -71,7 +71,7 @@ def generate9AMArrival(weekday):
                 arrivalTime = random.choice(samples_9am) # choose randomly from sample of 9am arrivals (format: 9.50)
                 arrivalTime = convert_time_frac_string(arrivalTime)
                 departureTime = convert_time(arrivalTime) - random.randint(5, 15) * 60 # 5-15 minutes before arrival
-                departureTime = int(str(departureTime) + '0000')
+                departureTime = int(str(departureTime))
                 if mode == 'Metro':
                     origin = weesperMetro
                     destination = coordinates
@@ -79,7 +79,8 @@ def generate9AMArrival(weekday):
                 else:
                     origin = allCoordinates.sample().values # THIS IS A PLACEHOLDER
                     origin = origin[0]
-                    destination = coordinates
+                    origin = [origin[1], origin[0]]
+                    destination = [coordinates[1], coordinates[0]]
 
                 people.append(generate_person(departureTime, origin, destination, mode))
 
