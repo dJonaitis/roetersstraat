@@ -1,6 +1,6 @@
 import pandas as pd
 from cleaner import cleanRooster
-from scenario import write_scenario, generate_person, convert_time
+from scenario_tools import write_scenario, generate_person, convert_time
 import random
 import json
 
@@ -20,10 +20,6 @@ fractionBike = 0.3 # fraction of people using bike 0-1
 fractionCar = 0.1 # fraction of people using car 0-1
 fractionWalk = 0.3 # fraction of people walking 0-1
 
-# import and clean schedule
-schedule = pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv')
-df = cleanRooster(schedule)
-df_grouped = df.groupby(['day', 'start_time', 'location'])['size'].sum().reset_index(name='total_size')
 
 recCoordinates = {
     'REC_M': [52.3651602,4.9116465],
@@ -42,12 +38,17 @@ weesperMetro = [4.9081389973987655,52.361556080685006]
 allCoordinates = pd.read_csv('coordinates/scraped_addresses.csv')
 allCoordinates = allCoordinates[['Latitude', 'Longitude']]
 
-
-
 # FUNCTIONS
 weekday = 'Monday' # day of the week for the scenario
 
-def generate9AMArrival(schedule, weekday, schedule_grouped, name):
+def generate9AMArrival(weekday):
+    ## variables
+    # import and clean schedule
+    schedule = pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv')
+    schedule = cleanRooster(schedule)
+    schedule_grouped = schedule.groupby(['day', 'start_time', 'location'])['size'].sum().reset_index(name='total_size')
+
+    ## logic
     schedule_grouped = schedule_grouped[schedule_grouped['day'] == weekday]
     schedule_grouped = schedule_grouped[schedule_grouped['start_time'] == '09:00']
     schedule_grouped['total_size'] = schedule_grouped['total_size'] * attendanceFactor
@@ -83,16 +84,15 @@ def generate9AMArrival(schedule, weekday, schedule_grouped, name):
                 people.append(generate_person(departureTime, origin, destination, mode))
 
 
-    print(f'STATISTICS FOR THIS SCENARIO: {name}')
+    print(f'STATISTICS FOR THIS UVA SCENARIO')
     print(f'Number of people: {len(people)}')
     print(f'Number of people using Bike: {len([p for p in people if p["trips"][0]["mode"] == "Bike"])}')
     print(f'Number of people using Drive: {len([p for p in people if p["trips"][0]["mode"] == "Drive"])}')
     print(f'Number of people using Walk: {len([p for p in people if p["trips"][0]["mode"] == "Walk"])}')
 
     people = random.sample(people, int(len(people) * fractionSimulation))
-    return write_scenario(name, people)
+    return people
 
-print(generate9AMArrival(df, weekday, df_grouped, '9am_first_test'))
 
 
                     
