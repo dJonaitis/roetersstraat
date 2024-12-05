@@ -65,7 +65,8 @@ Further documentation on the scenarios in A/BStreet can be found [here](https://
 
 **To be done**:
 1. Parking needs to be implemented, as OpenStreetMap cannot accurately map parking to its streets. In order to do so, consult [this](https://a-b-street.github.io/docs/software/parking_mapper.html) part of the documentation.
-
+### scenarios.md
+This file contains the logic and assumptions for every individual scenario. It can be found [here](abstreet/scenarios.md).
 ### uva_scenario.py (v1.0)
 This contains the functions necessary to convert a distribution of students arrival times and rooster schedule data and combine that into a scenario ready to load into A/BStreet.
 
