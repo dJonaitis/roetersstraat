@@ -77,7 +77,12 @@ This contains the functions necessary to convert a distribution of students arri
 
 ### resident_scenario.py
 **Room for improvement**:
-1. 
+1. Not all residents that live in the area actually work inside the same area. Many people are likely to be working outside the area defined by the geojson-file. However, this could possibly be accounted by estimating or doing desk research to find out how many workers actually work in their immediate surroundings, in this case the geojson-file.
+2. A lot of working residents also work out of home for a significant amount of time, following official CBS Statistics. This needs to be taken into account to make the model as accurate as possible. For this, statistics from the CBS haven been taken, in which it says 52% of the working population work out of home and out of this 52%, of which the specific statistics estimations predict these people work around 37.5% of their total work time at home.
+3. Another consideration point has to do with the workforce that has workdays in the weekend. Taking this into account can also be important, but would make the model too complex probably. This is something we need to weigh out before deciding if we take this into account.
+4. In Amsterdam, a higher than average amount of students are living, which means it is likely we will overestimate the amount of working residents. By knowing 7% of residents in Amsterdam are students, we could take this into account by calculating the difference towards the country-wide percentage of students in the Netherlands. 
+5. Sampling more workers to the bigger employers (like UvA) would change the traffic flow in the street as well by making it more accurate.
+
 
 ### school_scenario.py
 
