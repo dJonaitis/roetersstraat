@@ -1,5 +1,5 @@
 import pandas as pd
-from scenario_tools import generate_person_2trip, generate_departure_time
+from scenario_tools import generate_person, generate_departure_time, generate_trip
 import random
 
 random.seed(42)
@@ -33,14 +33,13 @@ def generate9to5(residents):
     people = []
     for i in range(residents):
         home = homes.sample()[['Latitude', 'Longitude']].values[0]
-        home = [home[1], home[0]]
         work = workplaces.sample()[['Latitude', 'Longitude']].values[0]
-        work = [work[1], work[0]]
         # mode is randomly chosen through an uneven coin-toss with values noted above
         mode = random.choices(['Bike', 'Drive', 'Walk'], weights=[fractionBike, fractionCar, fractionWalk])[0]
         # the line below should be changed to adjust how people leave for work and home, and with what deviation
         person = Person(home, work, mode, generate_departure_time(9, 0.25, 1)[0], generate_departure_time(17, 0.25, 1)[0])
-        people.append(generate_person_2trip(person.departHome, person.home, person.work, person.mode, person.departWork, person.work, person.home, person.mode))
+        trips = [generate_trip(person.departHome, person.home, person.work, person.mode), generate_trip(person.departWork, person.work, person.home, person.mode)]
+        people.append(generate_person(trips))
     print(f'STATISTICS FOR THIS 9 TO 5 SCENARIO')
     print(f'Number of people: {len(people)}')
     print(f'Number of people using Bike: {len([p for p in people if p["trips"][0]["mode"] == "Bike"])}')

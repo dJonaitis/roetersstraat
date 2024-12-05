@@ -41,66 +41,26 @@ def write_scenario(name, people):
         f.write(json.dumps(scenario, indent=2))
     return "Scenario saved"
 
-def generate_person_2trip(timeDeparture1, origin1, destination1, mode1, timeDeparture2, origin2, destination2, mode2):
+def generate_trip(timeDeparture, origin, destination, mode):
     return {
-        'trips': [
-            {
-                'departure': timeDeparture1,
-                'origin': {
-                    'Position': {
-                        'longitude': origin1[0],
-                        'latitude': origin1[1]
-                    }
-                },
-                'destination': {
-                    'Position': {
-                        'longitude': destination1[0],
-                        'latitude': destination1[1]
-                    }
-                },
-                'mode': mode1,
-                'purpose': 'Work'
-            },
-            {
-                'departure': timeDeparture2,
-                'origin': {
-                    'Position': {
-                        'longitude': origin2[0],
-                        'latitude': origin2[1]
-                    }
-                },
-                'destination': {
-                    'Position': {
-                        'longitude': destination2[0],
-                        'latitude': destination2[1]
-                    }
-                },
-                'mode': mode2,
-                'purpose': 'Work'
+        'departure': timeDeparture,
+        'origin': {
+            'Position': {
+                'latitude': origin[0],
+                'longitude': origin[1]
             }
-        ]
+        },
+        'destination': {
+            'Position': {
+                'latitude': destination[0],
+                'longitude': destination[1]
+            }
+        },
+        'mode': mode,
+        'purpose': 'Work'
     }
+def generate_person(trips):
+    return {'trips': trips} 
 
-# 1 trip version
-def generate_person(timeDeparture, origin, destination, mode):
-    return {'trips': [
-            {
-                'departure': timeDeparture,
-                'origin': {
-                    'Position': {
-                        'longitude': origin[0],
-                        'latitude': origin[1]
-                    }
-                },
-                'destination': {
-                    'Position': {
-                        'longitude': destination[0],
-                        'latitude': destination[1]
-                    }
-                },
-                'mode': mode,
-                'purpose': 'Work'
-            },
-    ]}
 
 

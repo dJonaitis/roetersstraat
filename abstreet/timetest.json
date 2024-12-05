@@ -1,0 +1,43 @@
+{
+    "scenario_name": "timetest",
+    "people": [
+      {
+        "trips": [
+          {
+            "departure": 10000,
+            "origin": {
+              "Position": {
+                "latitude": 52.361556080685006,
+                "longitude": 4.9081389973987655
+              }
+            },
+            "destination": {
+              "Position": {
+                "latitude": 52.3630387,
+               "longitude": 4.914365
+          }
+            },
+            "mode": "Bike",
+            "purpose": "Meal"
+          },
+          {
+            "departure": 300000,
+            "origin": {
+              "Position": {
+                "latitude": 52.3630387,
+               "longitude": 4.914365
+          }
+            },
+            "destination": {
+              "Position": {
+                "latitude": 52.3635266,
+                "longitude": 4.909961
+          }
+            },
+            "mode": "Walk",
+            "purpose": "Recreation"
+          }
+        ]
+      }
+    ]
+  }

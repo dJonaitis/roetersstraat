@@ -1,6 +1,6 @@
 import pandas as pd
 from cleaner import cleanRooster
-from scenario_tools import write_scenario, generate_person, convert_time, convert_time_frac_string
+from scenario_tools import write_scenario, generate_person, convert_time, convert_time_frac_string, generate_trip
 import random
 import json
 
@@ -31,7 +31,7 @@ recCoordinates = {
     'REC_LAB': [52.3636084,4.9124119] 
 }
 
-weesperMetro = [4.9081389973987655,52.361556080685006]
+weesperMetro = [52.361556080685006, 4.9081389973987655]
 
 
 # get random coordinates for each building
@@ -79,10 +79,9 @@ def generate9AMArrival(weekday):
                 else:
                     origin = allCoordinates.sample().values # THIS IS A PLACEHOLDER
                     origin = origin[0]
-                    origin = [origin[1], origin[0]]
-                    destination = [coordinates[1], coordinates[0]]
-
-                people.append(generate_person(departureTime, origin, destination, mode))
+                    destination = coordinates
+                trips = [generate_trip(departureTime, origin, destination, mode)]
+                people.append(generate_person(trips))
 
     people = random.sample(people, int(len(people) * fractionSimulation))
     print(f'STATISTICS FOR THIS UVA SCENARIO')
