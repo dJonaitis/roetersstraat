@@ -7,7 +7,7 @@ def cleanRooster(df):
     df['day'] = pd.to_datetime(df['date']).dt.day_name()
 
     df = df.drop_duplicates()
-
+    df['room'] = df['location']
     df['location'] = df['location'].str[:5]
 
     # recode each location value by dict

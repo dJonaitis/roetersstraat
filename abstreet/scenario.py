@@ -1,4 +1,4 @@
-from uva_scenario import generate9AMArrival
+from uva_scenario import generateUvA
 from resident_scenario import generate9to5
 from school_scenario import generateSchool
 from scenario_tools import write_scenario
@@ -16,10 +16,11 @@ schoolParams = {
 }
 
 def scenario_combiner(name, uvaParams, residentParams, schoolParams):
-    uvaPeople = generate9AMArrival(uvaParams['weekday'])
+    uvaPeople = generateUvA(uvaParams['weekday'])
     residentPeople = generate9to5(residentParams['residents'])
     schoolPeople = generateSchool(schoolParams['students'])
     people = uvaPeople + residentPeople + schoolPeople
+    people = uvaPeople
     print(f'STATISTICS FOR COMBINED SCENARIO')
     print(f'Number of people in UvA scenario: {len(uvaPeople)}')
     print(f'Number of people in Resident scenario: {len(residentPeople)}')
@@ -29,5 +30,5 @@ def scenario_combiner(name, uvaParams, residentParams, schoolParams):
     write_scenario(name, people)
     return 'Scenario succesfully written to file.'
 
-scenario_combiner('combined_3_test', uvaParams, residentParams, schoolParams)
+scenario_combiner('uva_long_test', uvaParams, residentParams, schoolParams)
 
