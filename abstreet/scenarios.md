@@ -1,3 +1,5 @@
+Further documentation and how to run the scenario can be found in the README document on the GitHub repository. 
+
 # Scenario logic
 This document details the assumptions made and the logic behind each of the individual components of the scenario.
 
