@@ -5,22 +5,24 @@ from scenario_tools import write_scenario
 
 uvaParams = {
     'weekday': 'Monday',
+    'attendanceFactor' : 1, # how much of the real data to simulate 0-1
+    'fractionBreak' : 0.7, # percentage of people that go to a cafe/other break places during breaks 0-1
+
 }
 
 residentParams = {
-    'residents': 100,
+    'residents': 1000,
 }
 
 schoolParams = {
-    'students': 100,
+    'students': 300,
 }
 
 def scenario_combiner(name, uvaParams, residentParams, schoolParams):
-    uvaPeople = generateUvA(uvaParams['weekday'])
+    uvaPeople = generateUvA(uvaParams['weekday'], uvaParams['attendanceFactor'], uvaParams['fractionBreak'])
     residentPeople = generate9to5(residentParams['residents'])
     schoolPeople = generateSchool(schoolParams['students'])
     people = uvaPeople + residentPeople + schoolPeople
-    people = uvaPeople
     print(f'STATISTICS FOR COMBINED SCENARIO')
     print(f'Number of people in UvA scenario: {len(uvaPeople)}')
     print(f'Number of people in Resident scenario: {len(residentPeople)}')
