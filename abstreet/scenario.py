@@ -8,11 +8,11 @@ uvaParams = {
 }
 
 residentParams = {
-    'residents': 100,
+    'residents': 7200,
 }
 
 schoolParams = {
-    'students': 100,
+    'students': 300,
 }
 
 def scenario_combiner(name, uvaParams, residentParams, schoolParams):
@@ -20,7 +20,7 @@ def scenario_combiner(name, uvaParams, residentParams, schoolParams):
     residentPeople = generate9to5(residentParams['residents'])
     schoolPeople = generateSchool(schoolParams['students'])
     people = uvaPeople + residentPeople + schoolPeople
-    people = uvaPeople
+    # people = uvaPeople
     print(f'STATISTICS FOR COMBINED SCENARIO')
     print(f'Number of people in UvA scenario: {len(uvaPeople)}')
     print(f'Number of people in Resident scenario: {len(residentPeople)}')
@@ -30,5 +30,5 @@ def scenario_combiner(name, uvaParams, residentParams, schoolParams):
     write_scenario(name, people)
     return 'Scenario succesfully written to file.'
 
-scenario_combiner('uva_long_test', uvaParams, residentParams, schoolParams)
+scenario_combiner('main', uvaParams, residentParams, schoolParams)
 

@@ -69,8 +69,13 @@ The scenario matches the nearest building, within 100 meters.
 
 Further documentation on the scenarios in A/BStreet can be found [here](https://a-b-street.github.io/docs/tech/dev/formats/scenarios.html).
 
-**To be done**:
-1. Parking needs to be implemented, as OpenStreetMap cannot accurately map parking to its streets. In order to do so, consult [this](https://a-b-street.github.io/docs/software/parking_mapper.html) part of the documentation.
+#### Parking
+OpenStreetMap is very spotty with mapping parking, and as such, we manually went through and added parking using A/BStreet's built in parking-mapper. The .osc file for this was then added onto an osm file generated with the same coordinates as the geoJSON file. These were combined using the software [JOSM](https://josm.openstreetmap.de/). Below is an image of what the area looks like when imported into JOSM.
+
+![JOSM Image](images/JOSM.png)
+
+The changeset for OpenStreetMap can be found [here](https://www.openstreetmap.org/changeset/161038993).
+
 ### scenarios.md
 This file contains the logic and assumptions for every individual scenario. It can be found [here](abstreet/scenarios.md).
 ### uva_scenario.py (v1.0)
