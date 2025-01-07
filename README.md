@@ -7,11 +7,11 @@ The agent-based model of the Roetersstraat is constructed using A/BStreet. This 
 
 This directory contains the code for creating the scenarios and the map files necessary to be able to replicate the model.
 ### Instructions for running A/BStreet
-Clone this repository, and run the file ``scenario.py``. This will generate a JSON file in the root directory. 
+1. Clone this repository, and run the file ``scenario.py``. This will generate a JSON file in the root directory. The pregenerated file used in tests is ``main.json``.
 
-Download A/BStreet and open it, going into the "Traffic Simulation Sandbox". Add the map by copying the contents of the GeoJSON file into A/BStreet when prompted. 
+2. [Download A/BStreet](https://a-b-street.github.io/docs/user/index.html) and open it, going into the "Traffic Simulation Sandbox". Find the map button in the top left, to the right of the "Sandbox" label. Click "Import a new city into A/BStreet" and paste the contents of ``geojson.json`` from the ``abstreet`` directory in the repository.
 
-Select the scenario button, and select "Import from JSON". Then navigate to the root where the scneario was saved, and import it.
+3. Select the scenario button, and select "Import from JSON". Then navigate to the root where the scenario was saved, and import it.
 ### Scenarios
 An example scenario in A/BStreet can be found below. 
 
