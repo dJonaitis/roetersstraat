@@ -21,6 +21,7 @@ def cleanRooster(df):
         'REC M': 'REC_M',
         'REC G': 'REC_G',
         'REC L': 'REC_LAB',
+        'REC P': 'REC_P'
     }
 
     df['location'] = df['location'].replace(dict)

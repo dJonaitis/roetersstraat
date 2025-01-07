@@ -5,6 +5,9 @@ from scenario_tools import write_scenario
 
 uvaParams = {
     'weekday': 'Monday',
+    'attendanceFactor' : 1, # how much of the real data to simulate 0-1
+    'fractionBreak' : 0.7, # percentage of people that go to a cafe/other break places during breaks 0-1
+
 }
 
 residentParams = {
@@ -16,7 +19,7 @@ schoolParams = {
 }
 
 def scenario_combiner(name, uvaParams, residentParams, schoolParams):
-    uvaPeople = generateUvA(uvaParams['weekday'])
+    uvaPeople = generateUvA(uvaParams['weekday'], uvaParams['attendanceFactor'], uvaParams['fractionBreak'])
     residentPeople = generate9to5(residentParams['residents'])
     schoolPeople = generateSchool(schoolParams['students'])
     people = uvaPeople + residentPeople + schoolPeople

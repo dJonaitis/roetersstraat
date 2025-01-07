@@ -19,15 +19,14 @@ samples_normalised = samples_normalised.flatten().tolist()
 samples = pd.read_csv('rooster/data/10k_uva_samples.csv').values
 samples =  samples.flatten().tolist()
 
-attendanceFactor = 1 # percentage of people attending classes 0-1
-fractionSimulation = 0.1 # how much of the real data to simulate 0-1
+
 
 fractionMetro = 0.3 # fraction of people using metro 0-1
 fractionBike = 0.3 # fraction of people using bike 0-1
 fractionCar = 0.1 # fraction of people using car 0-1
 fractionWalk = 0.3 # fraction of people walking 0-1
 
-
+# this is a dictionary of coordinates for each building
 recCoordinates = {
     'REC_M': [52.3651602,4.9116465],
     'REC_ABC': [52.3629328,4.9119699],
@@ -35,7 +34,21 @@ recCoordinates = {
     'REC_G': [52.3636084,4.912418],
     'REC_E': [52.3638465,4.9112789],
     'REC_J/K': [52.3630387,4.914365],
-    'REC_LAB': [52.3636084,4.9124119] 
+    'REC_LAB': [52.3636084,4.9124119],
+    'REC_P': [52.36405,4.9149618]
+}
+
+# this is a dictionary of coordinates for possible places students might go to during breaks
+breakCoordinates = {
+    'Albert Heijn': [52.3688459,4.903662],
+    'Bagels & Beans': [52.3640148,4.9106605],
+    'Kriterion': [52.362493,4.9106652],
+    'Jens Bing': [52.36391616411015,4.910588855338489],
+    'Cantina Caliente': [52.3623528,4.9108398],
+    'UvA cafeteria': [52.3638465,4.9112789],
+    'Lebkov & Sons': [52.36277033427814, 4.91112493463325],
+    'Espresso bar': [52.3630387,4.914365],
+    'UvA library': [52.3629328,4.9119699]
 }
 
 weesperMetro = [52.361556080685006, 4.9081389973987655]
@@ -49,7 +62,7 @@ homes = homes[['Latitude', 'Longitude']]
 # FUNCTIONS
 weekday = 'Monday' # day of the week for the scenario
 
-def estimate_unique_students(weekday):
+def estimate_unique_students(weekday, attendanceFactor):
     # Load and clean data
     schedule = cleanRooster(pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv'))
     
@@ -78,7 +91,7 @@ def estimate_unique_students(weekday):
     # Apply correction factor based on assumptions:
     # - Average student takes 3 classes per day
     # - Classes are spread throughout the day
-    estimated_unique_students = int(max_concurrent * 1.5)  # Correction factor
+    estimated_unique_students = int(max_concurrent * 1.5 * attendanceFactor)  # Correction factor
     
     return {
         'max_concurrent': max_concurrent,
@@ -177,7 +190,7 @@ def generate9AMArrival(weekday):
 # Trips between classes (including cafe visits)
 # Evening trip from last class to home
 
-def generateUvA(weekday):  
+def generateUvA(weekday, attendanceFactor, fractionBreak):  
     people = []   
     schedule = cleanRooster(pd.read_csv('rooster/data/calendar_week_nov_4_8_2024.csv'))
     schedule= schedule[schedule['day'] == weekday]
@@ -190,7 +203,7 @@ def generateUvA(weekday):
     # GENERATE THE STUDENT POPULATION
 
     # Estimate amount of unique students
-    results = estimate_unique_students(weekday)
+    results = estimate_unique_students(weekday, attendanceFactor)
     print(f"Max concurrent students: {results['max_concurrent']}")
     print(f"Estimated unique students: {results['estimated_unique']}")
     unique_students = results['estimated_unique']
@@ -228,6 +241,30 @@ def generateUvA(weekday):
         arrivalTime = convert_time(arrivalTime)
         trips.append(generate_trip(arrivalTime, home, recCoordinates[firstClass['location']], mode))
         # intermediate trips (LATER) - class -> cafe -> class
+        # Check for gaps between classes and add cafe visits
+        for i in range(len(classes) - 1):
+            current_class = classes.iloc[i]
+            next_class = classes.iloc[i + 1]
+            time_gap = next_class['start_time'] - current_class['end_time']
+            
+            if time_gap >= 2:  # 2 hour gap
+                if random.random() < fractionBreak:  # 70% chance to visit cafe
+                    cafe = random.choice(list(breakCoordinates.items()))
+                    cafe_time = current_class['end_time'] + (10/60)  # Visit cafe 10 mins after class
+                    # Trip to cafe
+                    trips.append(generate_trip(
+                        convert_time(convert_time_frac_string(cafe_time)),
+                        recCoordinates[current_class['location']],
+                        cafe[1],
+                        'Walk'
+                    ))
+                    # Trip from cafe to next class
+                    trips.append(generate_trip(
+                        convert_time(convert_time_frac_string(next_class['start_time'] - (10/60) + random.choice(samples_normalised))),
+                        cafe[1],
+                        recCoordinates[next_class['location']],
+                        'Walk'
+                    ))
         # last trip - class -> home
         lastClass = classes.iloc[-1]
         departureTime = lastClass['end_time'] + random.choice(samples_normalised)
@@ -245,4 +282,3 @@ def generateUvA(weekday):
 
 
 
-generateUvA('Monday')

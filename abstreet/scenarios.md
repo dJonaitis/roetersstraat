@@ -17,27 +17,25 @@ Various suggestions and comments on the quality of the code are in italics. A mo
 3. Roetersstraat Primary School (``school_scenario.py``)
 
 ## UvA
-As of now, the scenario works only for the first period of 9-11AM, in the future it will be adapted to work with dynamically with the entire schedule. 
-
+This is the scenario of UvA students, based on the schedule.
 ### Assumptions
-- ``attendanceFactor`` - the percentage of people actually attending classes. (i.e. for a 100 person class you would expect ``100 * attendanceFactor``) people to show up.
-- ``fractionSimulation`` - the percentage of the actual people to simulate. Because of computational efficiency concerns, a representative sample of the total amount of real agents can be simulated. Melnikov et al. (p. 2308), in their study of Amsterdam car traffic, use the fraction of their total agents compared and population size. In their study, there are 410 thousand cars, roughly 2.4 million people livig in Amsterdam (a fraction of around 0.1), hence they simulated 41 thousand agents (410 * 0.1). This is arbitrarily set in the code for now.
+- ``unique_students`` - the amount of unique students that come every day. This number is counted from getting the maximum concurrent students and multiplying by a factor of 1.5.
+- ``attendanceFactor`` - the percentage of people actually attending classes. (i.e. for a 100 person class you would expect ``100 * attendanceFactor``) people to show up. This number goes on top of ``unique_students``.
+- ``fractionSimulation`` (DEPRECATED) - the percentage of the actual people to simulate. Because of computational efficiency concerns, a representative sample of the total amount of real agents can be simulated. Melnikov et al. (p. 2308), in their study of Amsterdam car traffic, use the fraction of their total agents compared and population size. In their study, there are 410 thousand cars, roughly 2.4 million people livig in Amsterdam (a fraction of around 0.1), hence they simulated 41 thousand agents (410 * 0.1). This is arbitrarily set in the code for now.
 - ``fractionMode`` - this is a series of variables that denote the fraction of the UvA agents that use a certain mode of transport to get to UvA (e.g. ``fractionMetro = 0.3`` would mean 30% of students use the metro).
 - ``weesperMetro`` - in this stage, any student using the metro will leave from the Weesperplein metro station exit nearest Valckenierstraat.
+- ``fractionBreak`` - the percentage of students that will go to a third place for a break.
+- ``breakCoordinates`` - a series of nearby businesses and places that students might go to during a break.
 - The students arrive for a 9AM with a Gaussian distribution derived from combined observations from various buildings around REC. This distribution was pre-sampled 10 thousand times in the file ``10k_samples_9am.csv``, and a random time is selected from this file for any given student. *In the future this could be made abstracted to where the mean of the distribution is 0 (the start time of the class) and -0.5 and 0.5 would mean the student comes half an hour before or after the start time respectively.*
 ### Logic
 1. The schedule is read and cleaned, filtered for only the relevant weekday defined in the variable ``weekday``.
-2. The block of the schedule that starts at 9AM is saved as a separate DataFrame and the sum of all the sizes of the events in the block, multiplied by the ``attendanceFactor`` is saved as the total amount of UvA agents to be generated (e.g. if ``size = 1000`` and ``attendanceFactor = 0.8``, ``800`` agents will be generated).
-3. The variable ``sizes`` defines the amount of agents per mode of transporation by way of ``size * fractionMode`` (e.g. if ``fractionMetro = 0.3`` and ``size = 100``, there will be ``30`` agents taking the metro).
-4. Each one of the buildings is iterated through, also counting the amount of students going to that building at that time.
-5. Each one of the modes is iterated through, and the mode is iterated for the amount of agents taking that mode of transportation, going to that building.
-6. Inside this loop, the arrival time is sampled from the Gaussian distribution by selecting a random time from the 10 thousand samples. This is then converted into the departure time by subtracting 15 minutes from the arrival time. *This is not ideal, and could likely be made more logical.*
-7. If the mode of transportation is the metro, the origin of the agent is set to the metro station and the mode is overwritten to origin. This is because we are not simulating the public transport schedule. 
-8. The destination is set to the building the agent is going to (decided in step 4).
-9. The trip is generated and added to the people array. 
-10. Once the loop is complete, the populated array of people is sampled ``n`` times where ``n = len(people) * fractionSimulation``.
+2. The number of ``unique_students`` is counted, and ``attendanceFactor`` applied.
+3. For every unique student: a ``home`` is sampled, and a random ``mode`` assigned based on the weights of ``fractionMode``. If the ``mode`` is ``Metro``, ``home`` is set to ``weesperMetro`` and the ``mode`` set to ``Walk``.
+4. Each student gets assigned 1-4 classes from the schedule. When a class is assigned, the class ``size`` is reduced by 1, so that it will not pick classes that are full.
+5. Two trips are generated based on the student's classes: home to class and class to home.
+6. All breaks between classes are found, and if a break is greater than 2 hours, there is a ``fractionBreak`` chance a random place from ``breakCoordinates`` will be selected. Another trip will be added to that place, beginning at the end of the class, with another trip to the next class 10 minutes before it.
+7. A person is generated, and the people array is populated.
 
-*Notably, this part of the scenario is missing the simulation of anything past 9AM, including the agents leaving UvA. This is to be added.*
 
 ## Residents
 
@@ -52,7 +50,6 @@ This part is simulated in a similar manner to the default 9-to-5 preset in A/BSt
 2. Randomly select a mode with a weighted choice, with weights of ``fractionMode``.
 3. Generate a departure time from home to work and from work to home. This is done by sampling two normal distributions with a mean of ``9`` and ``17`` and standard deviation of ``0.25`` (15 minutes).
 4. Generate the two trips and generate a person from it, populating the array. Repeat for the total amount of residents.
-
 ## Roetersstraat Primary School
 
 This scenario simulates the pupils at the primary school and their parents going to and from school, and if applicable work.
@@ -77,3 +74,6 @@ This scenario simulates the pupils at the primary school and their parents going
 9. They also get assigned a departure time from school. If they have a parent, they get their parent's departure time from work + 10 minutes. *This could lead to the child leaving alone if the parent takes more than 10 minutes to get to the school.* If they don't, their departure time is sampled from normal distribution with mean of 15 minutes before class ends, with a standard deviation of 15 minutes.
 10. If the child (and/or their parent) takes the metro, the child's home is assigned to be the ``weesperMetro``.
 11. The trips of the child are combined to create a person, and the person is populated into the people array.
+
+# Bibliography
+Melnikov, V. R., Krzhizhanovskaya, V. V., Lees, M. H., & Boukhanovsky, A. V. (2016). Data-driven Travel Demand Modelling and Agent-based Traffic Simulation in Amsterdam Urban Area. Procedia Computer Science, 80, 2030–2041. https://doi.org/10.1016/j.procs.2016.05.523
