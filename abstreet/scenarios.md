@@ -3,7 +3,7 @@ Further documentation and how to run the scenario can be found in the README doc
 # Scenario logic
 This document details the assumptions made and the logic behind each of the individual components of the scenario.
 
-This file has last been edited on the 5th of December, 2024. 
+This file has last been edited on the 7th of January, 2025. 
 
 This code and explanation was written by Danielius Jonaitis.
 

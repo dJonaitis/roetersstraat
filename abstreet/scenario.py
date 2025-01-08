@@ -11,7 +11,7 @@ uvaParams = {
 }
 
 residentParams = {
-    'residents': 7200 * 0.8,
+    'residents': int(7200 * 0.8),
 }
 
 schoolParams = {
