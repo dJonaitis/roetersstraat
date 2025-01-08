@@ -26,8 +26,6 @@ This is the scenario of UvA students, based on the schedule.
 - ``weesperMetro`` - in this stage, any student using the metro will leave from the Weesperplein metro station exit nearest Valckenierstraat.
 - ``fractionBreak`` - the percentage of students that will go to a third place for a break.
 - ``breakCoordinates`` - a series of nearby businesses and places that students might go to during a break.
-- The students arrive for a 9AM with a Gaussian distribution derived from combined observations from various buildings around REC. This distribution was pre-sampled 10 thousand times in the file ``10k_samples_9am.csv``, and a random time is selected from this file for any given student. *In the future this could be made abstracted to where the mean of the distribution is 0 (the start time of the class) and -0.5 and 0.5 would mean the student comes half an hour before or after the start time respectively.*
-### Logic
 1. The schedule is read and cleaned, filtered for only the relevant weekday defined in the variable ``weekday``.
 2. The number of ``unique_students`` is counted, and ``attendanceFactor`` applied.
 3. For every unique student: a ``home`` is sampled, and a random ``mode`` assigned based on the weights of ``fractionMode``. If the ``mode`` is ``Metro``, ``home`` is set to ``weesperMetro`` and the ``mode`` set to ``Walk``.
