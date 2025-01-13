@@ -1,0 +1,33 @@
+Residents;0-17;18-26;27-65;66+;Neighboorhood_Name;Ratio_area_geojson;Residents_geojson;0-17_geojson;18-26_geojson;27-65_geojson;66+-geojson
+8031;746;1518;4398;1369;Weesperbuurt-Plantage;1;8031;746;1518;4398;1369
+2887;273;344;1609;661;Kadijken; 2/3;1934;183;230;1078;443
+926;58;110;527;231;Kazernebuurt; 1/3;309;19;37;176;77
+104;5;16;76;9;Oosterpark;1;104;5;16;76;9
+3852;405;594;2405;448;Oosterparkbuurt-Noordwest; 2/7;1124;118;173;701;131
+961;90;128;599;144;Frederikspleinbuurt; 1/7;137;13;18;86;21
+1217;107;172;735;203;Utrechtsebuurt-Zuid;0;81;7;11;49;14
+901;70;169;492;170;Waterloopleinbuurt; 3/5;541;42;101;295;102
+1209;104;203;623;279;Valkenburg; 3/5;725;62;122;374;167
+1260;88;185;770;217;Uilenburg;0;84;6;12;51;14
+3677;254;674;2464;285;Oostenburg;0;184;13;34;123;14
+;;;;;;;;;;;
+Total residents:;;13254;;;;;;;;;
+;;;Ratio;;People that can work;0.744;;Sources;;;
+Total residents 0-17:;;1214;0.09159;;Working individuals (age 15-75):;0.729;;https://onderzoek.amsterdam.nl/artikel/meer-amsterdammers-actief-op-arbeidsmarkt;;;
+Total residents 18-26:;;2272;0.17142;;;;;https://onderzoek.amsterdam.nl/interactief/dashboard-kerncijfers?tab=gebied&thema=overzicht&gebied=AK08&taal=nl;;;
+Total residents 27-65:;;7407;0.55885;;Generalisible working population (age 15-75) in GeoJSON:;9861;;https://www.cbs.nl/nl-nl/nieuws/2024/11/ruim-helft-nederlanders-werkt-weleens-thuis#:~:text=Gemiddeld%2015%20uur%20per%20week%20thuis&text=Dat%20is%20iets%20minder%20dan,iets%20meer%20dan%2017%20procent.;;;
+Total residents 66+:;;2361;0.17813;;Generalisible amount of working people in the age group 15-75:;7189;;https://www.cbs.nl/nl-nl/longread/diversen/2024/arbeidsduur-hoeveel-uren-werken-mensen-in-nederland-?onepage=true;;;
+;;;;;Generalisible amount of working residents on average weekday (taking into account people that work at home and part-time):;4349;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;Avg. Worker:;32 hours a week;;;;;
+;;;;;;52% chance of working at home;;;;;
+;;;;;;45.5% chance of working at home for 2 days a week;;;;;
+;;;;;;6.5% chance of working at home for 1 day a week;;;;;
+;;;;;;48% chance of not working at home;;;;;
+Methodology to get to these numbers:;;;;;;;;;;;
+By using the following source: https://onderzoek.amsterdam.nl/interactief/dashboard-kerncijfers?tab=gebied&thema=overzicht&gebied=AK08&taal=nl and combining the relevant GeoJSON file we have,;;;;;;;;;;;
+I searched up everything inside the GeoJSON-file and combined it with the names of the relevant neighboorhoods, which can be found in the Neighboorhood_Name-column. By thereafter estimating the relative area of the neighboorhood via this Google Maps and the tool, the relative area of the neighboorhood in the GeoJSON has been calculated.;;;;;;;;;;;
+By the Dashboard providing the exact amount of residents overall and per age group in every neighboorhood, the predicted amount of residents per neighboorhood can be calculated (by multiplying the total amount of residents with the ratio of the neighboorhood in the GeoJSON-file). By summing all these numbers, the total amount of residents in the GeoJSON-file can be predicted.;;;;;;;;;;;
+By dividing the working population and the total population of The Netherlands, the ratio of the working population compared to the total population of The Netherlands has been calculated. By also following this source: https://onderzoek.amsterdam.nl/artikel/meer-amsterdammers-actief-op-arbeidsmarkt, it can be concluded around 72.9% of people inside the working age of Amsterdam actually work. Multiplying this number with the working population ratio and the total population in the GeoJSON-file the generalisable amount of working residents in the GeoJSON-file has been calculated (7189).;;;;;;;;;;;
+The amount of workers that work out of home has been taken from the following official source: https://www.cbs.nl/nl-nl/nieuws/2024/11/ruim-helft-nederlanders-werkt-weleens-thuis#:~:text=Gemiddeld%2015%20uur%20per%20week%20thuis&text=Dat%20is%20iets%20minder%20dan,iets%20meer%20dan%2017%20procent, where it has been shown around 52% of workers in The Netherlands work at home, with an average of 15 hours over a work week of 32 hours (taken from this source: https://www.nu.nl/economie/6213530/bijna-de-helft-van-alle-werkenden-werkt-niet-fulltime.html?referrer=https%3A%2F%2Fwww.google.com%2F), it can be derived that for simplicity in our model 45.5% of all workers work at home for 2 days a week and 6.5% of all workers work at home for 1 day a week).;;;;;;;;;;;
